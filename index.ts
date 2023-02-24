@@ -1,7 +1,7 @@
 import express, {json} from "express";
 import cors from "cors";
 import 'express-async-errors';
-import {handleError, ValidationError} from "./utils/error";
+import {handleError} from "./utils/error";
 import rateLimit from "express-rate-limit";
 
 const app = express();
